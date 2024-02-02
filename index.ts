@@ -29,3 +29,22 @@ const obj: Record<(typeof basicTypes)[number], number> = {
 const test2 = Object.keys(obj);
 
 // https://stackoverflow.com/questions/52856496/typescript-object-keys-return-string
+
+interface Yolo {
+  yolo: boolean;
+}
+
+const hehe: Yolo = {
+  yolo: true,
+};
+
+const lol = { ...hehe, a: true };
+
+const printYolo = (y: Yolo) => {
+  console.log(y.yolo);
+};
+
+printYolo(hehe);
+printYolo(lol);
+
+// satisfies:  https://www.youtube.com/watch?v=r1L35zxZQPE&t=35s
