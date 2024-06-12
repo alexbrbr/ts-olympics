@@ -1,5 +1,3 @@
-//ts-worksheet-with-variables
-
 const olympicGames = {
   Tokyo2020: {
     city: "Tokyo",

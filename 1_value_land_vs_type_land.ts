@@ -1,5 +1,3 @@
-//ts-worksheet-with-variables
-
 //  primitive types -------------------
 
 let myBooleanValue = true;

@@ -1,5 +1,3 @@
-//ts-worksheet-with-variables
-
 // restrict to a list of values
 
 const judoka: Judoka = {
