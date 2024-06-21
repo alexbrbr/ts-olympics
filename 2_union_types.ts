@@ -76,3 +76,15 @@ const getPointsFromOutcome = (outcome: FootballGameOutcome) => {
     }
   }
 };
+
+// One important benefit of union types are autocomplete :
+type AutocompleteExampleType = "auto" | "complete";
+
+const testAutocomplete: AutocompleteExampleType = "auto";
+
+// If you want to show default autocomplete option but allow any string you can use this technique
+// see https://stackoverflow.com/questions/75262513/what-is-the-purpose-of-string#:~:text=So%20one%20use%20of%20string,by%20an%20IntelliSense%2Denabled%20IDE.
+type AutocompleteOrStringType = "auto" | "complete" | (string & {});
+
+const testAutocompleteOrString: AutocompleteOrStringType = "auto";
+const testAutocompleteOrString2: AutocompleteOrStringType = "any value works";
