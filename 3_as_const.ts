@@ -1,5 +1,3 @@
-//ts-worksheet-with-variables
-
 let letCity = "Paris"; // here type is string
 const constCity = "Paris"; // with const type becomes "Paris"
 

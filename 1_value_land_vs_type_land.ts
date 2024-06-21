@@ -1,5 +1,14 @@
 //  primitive types -------------------
 
+let myStr = "true";
+myStr + 3;
+myStr = 4;
+myStr * 3;
+
+let myNumber = 1;
+myNumber + 3;
+myNumber * 3;
+
 let myBooleanValue = true;
 type MyBooleanValue1 = typeof myBooleanValue;
 
@@ -11,16 +20,10 @@ const testTypeofConstValue = typeof true;
 
 let myBooleanValueManuallyTyped: boolean = true;
 let myBooleanValueManuallyTyped1: MyBooleanValue1 = true;
-let myBooleanValuWronglyTyped: string = true;
+let myBooleanValueWronglyTyped: string = true;
 
-let myStr = "true";
-myStr + 3;
-myStr = 4;
-myStr * 3;
-
-let myNumber = 1;
-myNumber + 3;
-myNumber * 3;
+const constantValue = 3;
+constantValue = 4;
 
 //  array types -------------------
 
